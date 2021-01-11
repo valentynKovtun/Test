@@ -40,7 +40,6 @@ public class TestGoogle {
         obgGoogle.setRequest(text);
         obgGoogle.clickSearch();
         SearchEngine.findWord(webDriver,text);
-        System.getProperty("searchString","Java");
     }
 
     @AfterClass
