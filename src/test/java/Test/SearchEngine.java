@@ -12,4 +12,8 @@ public class SearchEngine {
         List<WebElement> list = webDriver.findElements(By.xpath("//*[contains(text(),'" + text + "')]"));
         Assert.assertTrue("Text not found!", list.size() > 0);
     }
+
+    public static void findWord(String text) {
+
+    }
 }
